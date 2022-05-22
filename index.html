@@ -23,9 +23,9 @@
                 </a>
                 <nav class="menu">
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">Описание</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Характеристики</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">стоимость</a></li>
+                        <li class="menu__item"><a href="#info" class="menu__link">Описание</a></li>
+                        <li class="menu__item"><a href="#characteristics" class="menu__link">Характеристики</a></li>
+                        <li class="menu__item"><a href="#price" class="menu__link">стоимость</a></li>
                     </ul>
                 </nav>
             </div>
@@ -44,7 +44,7 @@
                         способен проезжать на одном заряде до 100 км, что определенно выше, чем у большинства
                         конкурентов. А большие колеса с пневматическими шинами, дисковые тормоза, 7-скоростная
                         трансмиссия и эргономичное сидение делают каждую поездку гораздо приятнее. </p>
-                    <a href="#" class="bike__link">ЗАКАЗАТЬ</a>
+                    <a href="#price" class="bike__link">ЗАКАЗАТЬ</a>
                 </div>
                 <div class="bike__column bike__column-slider">
                     <div class="bike__slider">
@@ -64,7 +64,7 @@
             </div>
         </div>
     </section>
-    <section class="info">
+    <section class="info" id="info">
         <div class="container">
             <div class="info__inner">
                 <img class="info__img" src="img/girl.jpg" alt="">
@@ -117,7 +117,7 @@
             </div>
         </div>
     </section>
-    <section class="characteristics">
+    <section class="characteristics" id="characteristics">
         <div class="container">
             <h4 class="characteristics__head">
                 Хaрактеристики
@@ -228,7 +228,7 @@
             </div>
         </div>
     </div>
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
             <div class="price__inner">
                 <form class="form" action="" method="get">
@@ -253,16 +253,6 @@
                             <div class="form__radio-style form__radio-style--grey"></div>
                         </label>
                         <label class="form__label">
-                            <input class="form__input-radio" name="radio" type="radio">
-                            <div class="form__bike">
-                                <img class="form__bike-img" src="img/bike-red.jpg" alt="">
-                                <p class="form__bike-price">
-                                    <span>35 999 грн.</span> 
-                                </p>
-                            </div>
-                            <div class="form__radio-style form__radio-style--red"></div>
-                        </label>
-                        <label class="form__label">
                             <input class="form__input-radio" name="radio"  type="radio" checked>
                             <div class="form__bike">
                                 <img class="form__bike-img" src="img/bike-white.jpg" alt="">
@@ -272,12 +262,42 @@
                             </div>
                             <div class="form__radio-style form__radio-style--white"></div>
                         </label>
+                        <label class="form__label">
+                            <input class="form__input-radio" name="radio" type="radio">
+                            <div class="form__bike">
+                                <img class="form__bike-img" src="img/bike-red.jpg" alt="">
+                                <p class="form__bike-price">
+                                    <span>35 999 грн.</span> 
+                                </p>
+                            </div>
+                            <div class="form__radio-style form__radio-style--red"></div>
+                        </label>
                     </div>
                     <button class="form__btn" type="submit">ЗАКАЗАТЬ</button>
                 </form>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <div class="footer__inner">
+                <a href="#" class="footer__link">Политика конфиденциальности</a>
+                <div class="footer__social-media">
+                    <a href="https://instagram.com"><img src="img/инст.svg" alt=""></a><a href="https://facebook.com"><img src="img/facebook (5) 1.svg" alt=""></a>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-line">
+                        <img src="img/Vector.svg" alt="">
+                        <p>+38 050 677 77 77</p>
+                    </div>
+                    <div class="footer__contacts-line">
+                        <img src="img/Vector2.svg" alt="">
+                        <p>elektrobikeukr@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
